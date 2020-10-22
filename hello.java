@@ -6,7 +6,7 @@ public class hello{
 		Scanner sc = new Scanner(System.in);
 		if(sc.hasNextLine())
 		name = sc.nextLine();
-		else name = "khanh";
+		else name = "khanh tran";
 		System.out.println("Hello " + name);
 	}
 }
