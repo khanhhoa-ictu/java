@@ -2,9 +2,11 @@ import java.util.Scanner;
 
 public class Hello{
 	public static void main(String[] args) {
-		
+		String name;
 		Scanner sc = new Scanner(System.in);
-		String name = sc.next();
+		if(sc.hasNextLine())
+		name = sc.nextLine();
+		else name = "khanh";
 		System.out.println("Hello " + name);
 	}
 }
